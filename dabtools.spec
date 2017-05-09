@@ -1,4 +1,4 @@
-%define _gh_ref 5bd48c704f99bed058200d4a621ecd1a3a46c150
+%define _gh_ref 67123c5b164412915ab9c00f890bcd4826e55bfc
 
 Name:     dabtools
 
@@ -6,8 +6,8 @@ Version:  master
 Release:  1
 Summary:  DAB/DAB+ software for RTL-SDR dongles including ETI stream recording
 License:  GPLv3+
-URL:      https://github.com/linuxstb/dabtools
-Source0:  https://github.com/linuxstb/dabtools/archive/%{_gh_ref}.tar.gz#/%{name}-%{_gh_ref}.tar.gz
+URL:      https://github.com/Opendigitalradio/dabtools
+Source0:  https://github.com/Opendigitalradio/dabtools/archive/%{_gh_ref}.tar.gz#/%{name}-%{_gh_ref}.tar.gz
 Patch0:   dabtools-makefile-usb.patch
 
 BuildRequires: gcc
